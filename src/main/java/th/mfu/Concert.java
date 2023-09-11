@@ -10,6 +10,15 @@ public class Concert {
     private String performer;
     private Date date;
     private String description;
+
+
+    
+    public Concert() {
+    }
+    public Concert(String title, String description) {
+        this.title = title;
+        this.description = description;
+    }
     public int getId() {
         return id;
     }
